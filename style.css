@@ -1,0 +1,62 @@
+.heading
+{
+    width: 100%;
+    margin: 0px;
+    font-size: 27px;
+    box-shadow: 6px 7px 12px orangered;
+    font-family: 'Fredoka One', cursive;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    font-family: 'Fredoka One', cursive;
+}
+
+.heading:hover
+{
+    color: lightskyblue;
+    background-color: blue;
+}
+
+.heading_div
+{
+    float: none;
+    background: whitesmoke;
+    padding: 10px;
+    box-shadow: 5px 5px 5px black ;
+    color: royalblue;
+    border-radius: 20px;
+    font-family: 'Bebas Neue', cursive;
+    animation-name: realtime;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    font-family: 'Fredoka One', cursive;
+}
+
+.heading_div2
+{
+    font-size: 18px;
+}
+
+@keyframes example {
+    from{box-shadow: 1px 1px 38px black;}
+    to{box-shadow: 1px 1px 38px rebeccapurple;}
+}
+
+@keyframes realtime {
+    from{box-shadow: 1px 1px 38px yellow;}
+    to{box-shadow: 1px 1px 38px lightsalmon;}
+}
+
+.heading_div2:hover
+{
+ border-color: mediumturquoise;
+ background-color: mintcream;
+ color: royalblue;
+ border-width: 11px;
+ font-family: 'Fredoka One', cursive;
+}
+
+body
+{
+    font-family: 'Arvo', serif;
+}
